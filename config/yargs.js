@@ -1,11 +1,11 @@
-const direccion = {
+const address = {
     alias: 'd',
-    desc: 'Direccion de la ciudad para obtener el clima',
+    desc: 'Address of the city to obtain the weather for',
     demand: true
 };
 
 const argv = require('yargs').options({
-    direccion
+    address
 }).argv;
 
 module.exports = {
